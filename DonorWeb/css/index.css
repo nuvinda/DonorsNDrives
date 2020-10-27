@@ -1,0 +1,431 @@
+.login-box {
+    width: 50%;
+    height: auto;
+    margin: 10% auto;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.logo {
+  padding: 30px 30px 5px 30px;
+}
+
+.form {
+  padding: 5px 30px 30px 30px;
+}
+
+.input {
+  padding: 5px;
+}
+
+body {
+  height: 100%;
+  background-image: url(../images/back2.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+	background-color: #ddd;
+	color: #000000;
+	border-color: #ffffff;
+	border-radius: 5px;
+  	text-decoration: none;
+  	display: inline-block;
+  	padding: 8px 16px;
+}
+
+.btn:hover {
+  	background-color: #cc0000;
+  	color: #ffffff;
+}
+
+.container input[type=submit]{
+  font: inherit;
+  background-color: #ddd;
+  color: #000000;
+  border-color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container input[type=submit]:hover {
+  background-color: #cc0000;
+  color: #ffffff;
+}
+
+.menu{
+    background-color: #ab1515;
+    margin-top: 2px;
+    margin-left:10px;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+.menu:hover{
+    background-color: #ddd;
+    border-radius: 6px;
+    color: #000;
+    padding: 7px;
+}
+
+.navbar{
+  background-color: #ab1515;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: right;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 25px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: #000;
+  border-radius: 6px;
+}
+
+
+.pic-row {
+    position: relative;
+    top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.pic-column {
+    flex: 33%;
+    max-width: 33%;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 25px;
+}
+
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.header {
+  flex: 1 0 auto;
+}
+
+.button button{
+  background-color: #ddd;
+  color: #000000;
+  border-color: #ffffff;
+  width: 25%;
+  height: 60px;
+  margin:auto;
+  display: block;
+  font: inherit;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: #cc0000;
+  color: #ffffff;
+}
+
+.donform label {
+  display: inline-block;
+}
+
+.donform input[type=text] {
+  font: inherit;
+  padding: 10px;
+  width: 80%;
+}
+
+
+.donform input[type=submit] {
+  font: inherit;
+  background-color: #ddd;
+  color: #000000;
+  border-color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+ .donform .row {
+  padding-left: 20px;
+}
+
+.donform .row-button {
+  text-align: center;
+  margin: 10px auto;
+  width: 20%;
+}
+
+.donform input[type=submit]:hover {
+  background-color: #cc0000;
+  color: #ffffff;
+}
+
+.donform .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.donform .row-label {
+    float: left;
+    width: 25%;
+    margin-top: 5px;
+}
+
+.donform .row-field {
+  float: right;
+  width: 75%;
+  margin-top: 5px;
+}
+
+.donUsername {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.donUsername .row {
+  margin: 10px;
+}
+
+.donUsername input[type=text], .donUsername input[type=password] {
+  font: inherit;
+  width: 25%;
+  padding: 10px;
+  font-style: italic;
+}
+
+.donUsername input[type=submit] {
+  font: inherit;
+  width: 8%;
+  background-color: #ddd;
+  color: #000000;
+  border-color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.donUsername input[type=submit]:hover {
+  background-color: #cc0000;
+  color: #ffffff;
+}
+
+.userAgree {
+  margin: auto;
+  text-align: center;
+}
+
+
+.userAgree .successButton button {
+  background-color: #ddd;
+	color: #000000;
+	border-color: #ffffff;
+  width: 20%;
+  height: 40px;
+  margin:auto;
+  display: block;
+  font: inherit;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.userAgree .successButton button:hover {
+  background-color: #cc0000;
+  color: #ffffff;
+}
+.quizform label {
+  display: inline-block;
+}
+
+.quizform input[type=text] {
+  font: inherit;
+  padding: 10px;
+  width: 40%;
+}
+
+
+.quizform input[type=submit] {
+  font: inherit;
+  background-color: #ddd;
+	color: #000000;
+	border-color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+ .quizform .row {
+  padding-left: 20px;
+}
+
+.quizform .row-button {
+  text-align: center;
+
+  width: 20%;
+}
+
+.quizform input[type=submit]:hover {
+  background-color: #cc0000;
+  color: #ffffff;
+}
+
+.quizform .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.quizform .row-label {
+    float: left;
+    width: 25%;
+    margin-top: 5px;
+}
+
+.quizform .row-field {
+  width: 75%;
+  margin-top: 5px;
+}
+
+.donsuccess {
+  background-color: white;
+  width: 50%;
+  margin: 5% auto 0px auto;
+  border-radius: 15px;
+}
+
+.donsuccess h1 {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.successButton button {
+  background-color: #ddd;
+	color: #000000;
+	border-color: #ffffff;
+  width: 8%;
+  height: 40px;
+  margin:auto;
+  display: block;
+  font: inherit;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.successButton button:hover {
+  background-color: #cc0000;
+  color: #ffffff;
+}
+
+
+.donID {
+  margin: 10px;
+
+}
+
+.donID img {
+  float: left;
+  height: 60px;
+  margin: 10px;
+}
+
+
+.footer {
+  color: white;
+  background-color: rgba(0,0,0,0.7);
+  margin-top: 90px;
+  width: 100%;
+  padding: 50px;
+  position: relative;
+  bottom: 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.footer .footer-left {
+  width:35%;
+}
+
+.footer .footer-center {
+  width: 35%;
+}
+
+.footer .footer-right {
+  width: 20%;
+}
+
+.footer .footer-left, .footer .footer-center, .footer .footer-right{
+  display: inline-block;
+  vertical-align:top;
+}
+
+
+.footer .footer-center p {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.footer .footer-center  p span {
+  display: block;
+}
+
+.footer .footer-right span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer .footer-right .footer-icons {
+  margin-top: 20px;
+}
+
+.footer .footer-right .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 3px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+}
+
+#t01 {
+  width: 100%;
+  background-color: #f1f1c1;
+}

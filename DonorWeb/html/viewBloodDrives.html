@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DonorsNDrives</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="https://kit.fontawesome.com/376ba00187.js" crossorigin="anonymous"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDP1WHP10yvIorSsmvuM-uLmCVrqKFfKiQ&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <style type="text/css">
+      #map {
+        height: 600px;
+        width: 100%;
+
+      }
+    </style>
+    <script>
+
+      function initMap() {
+
+        const ucsc = { lat: 6.9022, lng: 79.8612 };
+
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 17,
+          center: ucsc,
+        });
+
+        const marker = new google.maps.Marker({
+          position: ucsc,
+          map: map,
+        });
+
+
+        const contentString ='<h1 id="firstHeading" class="firstHeading">BloodDriveId: #134</h1>' + '<h2>UCSC Building Complex</h2>' + "Status: Ongoing Time: 8am-5pm Contact Details: Thamal-0717323232"
+        ;
+        const infowindow = new google.maps.InfoWindow({
+          content: contentString,
+        });
+
+        marker.addListener("click", () => {
+          infowindow.open(map, marker);
+        });
+
+
+      }
+    </script>
+  </head>
+  <body>
+
+    <div class="header">
+    <div class="navbar">
+      <img src="../images/logo.jpg" alt="logo" style="width: 100px; height:65px">
+      <a href="confirmLogout.html">Log Out</a>
+      <a href="donDetails.html">Edit Profile</a>
+      <a href="viewBloodDrives.html">View Blood Drives</a>
+      <a href="donLeaderboard.html">View Donor Leaderboard</a>
+      <a href="donHistory.html">View Donation History</a>
+    </div>
+  </div>
+  <h3>Blood Drives</h3>
+    <div id="map"></div>
+  </body>
+</html>
